@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "prettier": "3.2.4",
+    "tailwindcss": "^3.4.1"
+  },
+  "name": "bookclub-front",
+  "description": "This is a project done for the IBU web programming course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss build styles/styles.css -o output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-cli": "^11.0.0",
+    "watch": "^1.0.2"
+  }
+}
